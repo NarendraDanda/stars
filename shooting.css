@@ -8,7 +8,7 @@ section {
     left: 0;
     width: 100%;
     height: 100vh;
-    
+    background-image: url(night_sky.png);
     background-position: center;
     background-size: cover;
     background-color: black;
@@ -20,7 +20,7 @@ section > p {
     top: 20vh; /* Adjusted for better responsiveness */
     text-align: center; /* Centered the text */
     color: antiquewhite;
-    font-size: 5vw; /* Responsive font size using viewport width */
+    font-size: 2vw; /* Responsive font size using viewport width */
 }
 
 @media (max-width: 600px) {
